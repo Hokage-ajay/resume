@@ -3,24 +3,23 @@
 
 // Basic Information
 export const personalInfo = {
-  firstName: "Madhusoodhanan",
-  lastName: "KM",
-  title: "Full Stack Developer",
-  avatar: "avatar3.jpeg", // Place this file in src/assets
+  firstName: "Ajay",
+  lastName: "TR",
+  title: "Mainframe Engineer",
+  avatar: "Ajaypic.jpg", // Place this file in src/assets
   summary:
-    "Tech aficionado with 5+ years of experience embracing the full-stack frenzy of " +
-    new Date().getFullYear() +
-    "—conceptualizing, R&D, coding, testing, and cloud deployment. A one-person IT army, reveling in the end-to-end adventure.",
-  pdfFilename: "madhu-km-resume.pdf" // This will be used for both download and generation
+    "Seasoned Mainframe Professional with specialized expertise in batch management and scheduling since 2021. Proficient in IBM's Operations Planning and Control (OPC), optimizing mission-critical batch workflows and ensuring seamless enterprise operations.",
+  pdfFilename: "ajay-tr-resume.pdf" //
+  // sdvsdvsd This will be used for both download and generation
 };
 
 // Contact Information
 export const contactInfo = [
-  { icon: "mdi-phone", title: "+91-9738575801", link: "tel:+919738575801" },
+  { icon: "mdi-phone", title: "+91-9113526389", link: "tel:+919113526389" },
   {
     icon: "mdi-github",
-    title: "gammaSpeck",
-    link: "https://github.com/gammaSpeck"
+    title: "Hokage-ajay",
+    link: "https://github.com/Hokage-ajay"
   },
   {
     icon: "mdi-linkedin",
@@ -29,8 +28,8 @@ export const contactInfo = [
   },
   {
     icon: "mdi-email",
-    title: "tech@madhukm.com",
-    link: "mailto:tech@madhukm.com"
+    title: "ajaytr1247@gmail.com",
+    link: "mailto:ajaytr1247@gmail.com"
   },
   { icon: "mdi-home", title: "Bengaluru, Karnataka, India" }
 ];
@@ -39,43 +38,27 @@ export const contactInfo = [
 export const experience = {
   sections: [
     {
-      company: "Ollion",
-      summary: "Worked extensively on DataPipes which is a cloud native Data Management Platform.",
+      company: "Capgemini",
+      summary:
+        "Leading mainframe batch operations and infrastructure services for AXA Insurance Belgium, focusing on OPC (Tivoli Workload Scheduler) implementation and batch processing optimization.",
       positions: [
         {
           id: 1,
-          title: "Lead Product Developer",
-          timeline: "Apr 2023 - Present",
-          desc: "Orchestrated the end-to-end management of code and infrastructure for all front-end microservices, led a team of two skilled developers, completed the entire project migration from Vue 2 to Vue 3, and represented the product at international tech events to drive market visibility and engagement."
+          title: "Mainframe Batch management",
+          timeline: "July 2021 - Present",
+          desc: "Spearheaded batch management operations, mentored team members, and established quality standards. Led transition of batch management from AXA-Tech Belgium. Conducted weekly SLA reviews and implemented strategic service improvements based on customer needs."
         },
         {
           id: 2,
-          title: "Senior Developer",
-          timeline: "Apr 2022 - Apr 2023",
-          desc: "Owned multiple critical components, executed a comprehensive migration from Webpack to Vite, and collaborated closely with UX teams to enhance user experience and streamline front-end performance."
+          title: "Mainframe Batch management",
+          timeline: "July 2021 - Present",
+          desc: "Managed critical mainframe job streams using OPC, handled change management processes, and designed new batch streams. Created and maintained job dependencies across different platforms, performed SLA wellness checkpoints, and coordinated with support teams for incident resolution."
         },
         {
           id: 3,
-          title: "Developer",
-          timeline: "May 2021 - Apr 2022",
-          desc: "Contributed to the migration from JavaScript to TypeScript, optimized containerization processes, developed multiple web pages, and authored numerous REST APIs for the backend."
-        }
-      ]
-    },
-    {
-      company: "Cardinal Health",
-      summary:
-        "Healthcare providers in the US use our software to communicate digitally with patients about their health.",
-      positions: [
-        {
-          title: "Associate Software Engineer",
-          timeline: "Jun 2019 - May 2021",
-          desc: "Built architectural frameworks in NodeJS and React.js, architected and deployed a project to Kubernetes while mentoring the team through the SDLC, designed and launched the MVP for an Admin Console used by clients and support teams, owned multiple components, and served as a technical interviewer for campus recruitment."
-        },
-        {
-          title: "Software Engineering Intern",
-          timeline: "Jan 2019 - Jun 2021",
-          desc: "Developed microservices using the Serverless Framework and created a shared repository of reusable modules."
+          title: "Mainframe Batch management",
+          timeline: "July 2021 - Present",
+          desc: "Monitored mainframe batch job streams, performed incident analysis, and implemented recovery procedures. Created and managed Silva problem log tickets, processed workflow scheduling changes, and executed JCL overrides during recovery activities."
         }
       ]
     }
@@ -94,20 +77,20 @@ export const languages = [
   },
   {
     name: "Tamil",
-    proficiency: "Intermediate"
+    proficiency: "Advanced"
   },
   {
-    name: "Malayalam",
-    proficiency: "Intermediate"
+    name: "Kannada",
+    proficiency: "Advanced"
   }
 ];
 
 // Skills
 export const skills = {
   codingLanguages: [
-    { title: "Javascript", icon: "mdi-language-javascript" },
-    { title: "Typescript", icon: "mdi-language-typescript" },
-    { title: "Python", icon: "mdi-language-python" },
+    { title: "Javascript", icon: "mdi-laptop" },
+    { title: "Typescript", icon: "mdi-server" },
+    { title: "Python", icon: "mdi-database" },
     { title: "Shell", icon: "mdi-powershell" }
   ],
   frontend: [
