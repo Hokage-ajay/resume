@@ -6,7 +6,7 @@ export const personalInfo = {
   firstName: "Ajay",
   lastName: "TR",
   title: "Mainframe Engineer",
-  avatar: "Ajaypic.jpg", // Place this file in src/assets
+  avatar: "Ajaypic.png", // Place this file in src/assets
   summary:
     "Seasoned Mainframe Professional with specialized expertise in batch management and scheduling since 2021. Proficient in IBM's Operations Planning and Control (OPC), optimizing mission-critical batch workflows and ensuring seamless enterprise operations.",
   pdfFilename: "ajay-tr-resume.pdf" //
