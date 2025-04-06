@@ -23,8 +23,8 @@ export const contactInfo = [
   },
   {
     icon: "mdi-linkedin",
-    title: "madhusoodhanan-km",
-    link: "https://www.linkedin.com/in/madhusoodhanan-km"
+    title: "Ajay TR",
+    link: "https://www.linkedin.com/in/ajay-tr-9a94901b1"
   },
   {
     icon: "mdi-email",
