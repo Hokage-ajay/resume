@@ -88,10 +88,10 @@ export const languages = [
 // Skills
 export const skills = {
   codingLanguages: [
-    { title: "Javascript", icon: "mdi-laptop" },
-    { title: "Typescript", icon: "mdi-server" },
-    { title: "Python", icon: "mdi-database" },
-    { title: "Shell", icon: "mdi-powershell" }
+    { title: "Mainframe", icon: "mdi-laptop" },
+    { title: "Zos", icon: "mdi-server" },
+    { title: "OPC", icon: "mdi-database" },
+    { title: "Jobtrac", icon: "mdi-powershell" }
   ],
   frontend: [
     "Vue",
@@ -123,25 +123,25 @@ export const skills = {
 // Education
 export const education = [
   {
-    degree: "Bachelors in CS Engineering",
+    degree: "Bachelors in EC Engineering",
     grade: "CGPA 7.3/10",
-    school: "CMRIT",
-    from: "2015",
-    to: "2019"
+    school: "SEACET",
+    from: "2016",
+    to: "2020"
   },
   {
-    degree: "PUC - PCMB",
-    grade: "84%",
-    school: "Christ Junior College",
-    from: "2013",
-    to: "2015"
+    degree: "PUC - PCMC",
+    grade: "66%",
+    school: "Indiranagar composite PU college",
+    from: "2014",
+    to: "2016"
   },
   {
     degree: "Secondary Education",
-    grade: "92%",
-    school: "St Thomas Public School",
+    grade: "71%",
+    school: "Kairalee Nilayam High School",
     from: "",
-    to: "2013"
+    to: "2014"
   }
 ];
 
