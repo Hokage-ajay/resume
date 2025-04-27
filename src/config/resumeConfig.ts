@@ -93,18 +93,8 @@ export const skills = {
     { title: "OPC", icon: "mdi-database" },
     { title: "Jobtrac", icon: "mdi-powershell" }
   ],
-  frontend: [
-    "Vue",
-    "Vite",
-    "React",
-    "NextJS",
-    "Nuxt",
-    "MUI",
-    "Cypress",
-    "Playwright",
-    "Web Components"
-  ],
-  backend: [
+  os: ["Vue", "Vite", "React", "NextJS", "Nuxt", "MUI", "Cypress", "Playwright", "Web Components"],
+  st: [
     "NodeJS",
     "Express",
     "NestJS",
@@ -117,7 +107,7 @@ export const skills = {
     "MongoDB",
     "NATS"
   ],
-  devops: ["AWS", "CICD", "Docker", "Kubernetes", "HELM", "Terraform", "Jenkins", "k6", "Grafana"]
+  admin: ["AWS", "CICD", "Docker", "Kubernetes", "HELM", "Terraform", "Jenkins", "k6", "Grafana"]
 };
 
 // Education
