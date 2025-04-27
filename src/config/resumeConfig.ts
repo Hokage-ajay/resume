@@ -5,7 +5,7 @@
 export const personalInfo = {
   firstName: "Ajay",
   lastName: "TR",
-  title: "Mainframe Engineer",
+  title: "Mainframe Operations engineer",
   avatar: "Ajaypic.png", // Place this file in src/assets
   summary:
     "Seasoned Mainframe Professional with specialized expertise in batch management and scheduling since 2021. Proficient in IBM's Operations Planning and Control (OPC), optimizing mission-critical batch workflows and ensuring seamless enterprise operations.",
@@ -44,21 +44,21 @@ export const experience = {
       positions: [
         {
           id: 1,
-          title: "Mainframe Batch management",
+          title: "Mainframe Batch management L2 Operations",
           timeline: "July 2021 - Present",
-          desc: "Spearheaded batch management operations, mentored team members, and established quality standards. Led transition of batch management from AXA-Tech Belgium. Conducted weekly SLA reviews and implemented strategic service improvements based on customer needs."
+          desc: "Spearheaded L2 batch management operations, implementing permanent changes including application creation, Run cycle modifications, and LTP/Database updates based on client requirements.working on Prep job changes when required,Modifying changes in RFUs such as Epuration(purge/delete), Correction(fixing mistakes), and Entonnage(Adding elements) to the environment. working on Input Management(.IM) operations encompassing application archiving, JCL modifications, and dependency management. Demonstrated strong client relationship management through regular consultations and requirement analysis. Established comprehensive error handling protocols for failed jobs and created monthly performance dashboards, presenting trends and improvement strategies to stakeholders. Mentoring team members while maintaining quality standards and ensuring seamless transition of batch management from AXA-Tech Belgium."
         },
         {
           id: 2,
           title: "Mainframe Batch management",
-          timeline: "July 2021 - Present",
-          desc: "Managed critical mainframe job streams using OPC, handled change management processes, and designed new batch streams. Created and maintained job dependencies across different platforms, performed SLA wellness checkpoints, and coordinated with support teams for incident resolution."
+          timeline: "July 2022 - April 2023",
+          desc: "Managed critical mainframe operations for Belgium and Germany clients, successfully handling 800+ requests/incidents monthly. Orchestrated comprehensive batch scheduling and monitoring using OPC, including dataset operations (Proc member copy, Tape dataset copy), GDG base creation, and empty GDG dataset generation Creation. Expertly resolved various system abends (Space, SOC7, SOC4) and contention errors, while maintaining key field updates such as Anzhal values and dataset generations. Demonstrated proficiency in Special resource and Workstation management, consistently meeting SLA requirements through effective stakeholder communication and precise technical execution."
         },
         {
           id: 3,
-          title: "Mainframe Batch management",
-          timeline: "July 2021 - Present",
-          desc: "Monitored mainframe batch job streams, performed incident analysis, and implemented recovery procedures. Created and managed Silva problem log tickets, processed workflow scheduling changes, and executed JCL overrides during recovery activities."
+          title: "Mainframe Batch Monitoring",
+          timeline: "July 2021 - June 2022",
+          desc: "worked in mainframe operations for GCC MESD AXA UK L1 project, managing comprehensive batch scheduling through Jobtrac and OPC. Orchestrated production job scheduling, FTP job handling, and server monitoring including IPL operations. Implemented robust error management protocols, maintained strict SLA compliance, and executed strategic JCL modifications for failed jobs to ensure continuous system availability."
         }
       ]
     }
