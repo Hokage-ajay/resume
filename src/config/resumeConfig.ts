@@ -45,8 +45,8 @@ export const experience = {
         {
           id: 1,
           title: "Mainframe Batch management L2 Operations",
-          timeline: "July 2021 - Present",
-          desc: "Spearheaded L2 batch management operations, implementing permanent changes including application creation, Run cycle modifications, and LTP/Database updates based on client requirements.working on Prep job changes when required,Modifying changes in RFUs such as Epuration(purge/delete), Correction(fixing mistakes), and Entonnage(Adding elements) to the environment. working on Input Management(.IM) operations encompassing application archiving, JCL modifications, and dependency management. Demonstrated strong client relationship management through regular consultations and requirement analysis. Established comprehensive error handling protocols for failed jobs and created monthly performance dashboards, presenting trends and improvement strategies to stakeholders. Mentoring team members while maintaining quality standards and ensuring seamless transition of batch management from AXA-Tech Belgium."
+          timeline: "July 2022 - Present",
+          desc: "Spearheaded L2 batch management operations, implementing permanent changes including application creation, run cycle modifications, and LTP/Database updates based on client requirements. Managed Prep job changes when required, modifying RFUs such as Epuration (purge/delete), Correction (fixing mistakes), and Entonnage (adding elements) to the environment. Worked on Input Management (.IM) operations encompassing application archiving, JCL modifications, and dependency management. Demonstrated strong client relationship management through regular consultations and requirement analysis. Established comprehensive error handling protocols for failed jobs and created monthly performance dashboards, presenting trends and improvement strategies to stakeholders. Mentored team members while maintaining quality standards and ensuring seamless transition of batch management from AXA-Tech Belgium."
         },
         {
           id: 2,
@@ -88,26 +88,14 @@ export const languages = [
 // Skills
 export const skills = {
   codingLanguages: [
-    { title: "Mainframe", icon: "mdi-laptop" },
-    { title: "Zos", icon: "mdi-server" },
-    { title: "OPC", icon: "mdi-database" },
-    { title: "Jobtrac", icon: "mdi-powershell" }
+    { title: "Cobol", icon: "mdi-laptop" },
+    { title: "JCL", icon: "mdi-server" },
+    { title: "Java script", icon: "mdi-database" },
+    { title: "Type script", icon: "mdi-powershell" }
   ],
-  os: ["Vue", "Vite", "React", "NextJS", "Nuxt", "MUI", "Cypress", "Playwright", "Web Components"],
-  st: [
-    "NodeJS",
-    "Express",
-    "NestJS",
-    "FastAPI",
-    "OpenAPI Spec",
-    "WebSockets",
-    "Serverless",
-    "RDBMS",
-    "Neo4j",
-    "MongoDB",
-    "NATS"
-  ],
-  admin: ["AWS", "CICD", "Docker", "Kubernetes", "HELM", "Terraform", "Jenkins", "k6", "Grafana"]
+  os: ["Z/OS", "Microsoft windows OS", "Linux"],
+  st: ["OPC", "CA-Jobtrac"],
+  admin: ["Windows", "Linux", "VMware", "Citrix", "Network", "SQL database"]
 };
 
 // Education
