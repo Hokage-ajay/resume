@@ -21,8 +21,8 @@ async function createPdf(url) {
   const savePath = `./public/${pdfFilename}`;
   await page.pdf({
     path: savePath,
-    scale: 0.888, // Adjust scale as much as you'd want depending on your resume size, and make it fit into A4
-    printBackground: true,
+    scale: 0.855, // Adjust scale as much as you'd want depending on your resume size, and make it fit into A4
+    printBackground: true
   });
   await browser.close();
   console.log(`PDF generated successfully. Saved in: ${savePath}`);
